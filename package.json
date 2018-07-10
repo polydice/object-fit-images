@@ -1,5 +1,5 @@
 {
-  "name": "object-fit-images",
+  "name": "@polydice/object-fit-images",
   "version": "3.2.4-mod.1",
   "description": "Polyfill object-fit and object-position on images on IE9, IE10, IE11, Edge, Safari, ...",
   "license": "MIT",
