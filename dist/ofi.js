@@ -1,4 +1,4 @@
-/*! npm.im/object-fit-images 3.2.3 */
+/*! npm.im/object-fit-images 3.2.4-mod.1 */
 var objectFitImages = (function () {
 'use strict';
 
@@ -205,7 +205,7 @@ function fix(imgs, opts) {
 	}
 
 	if (startAutoMode) {
-		document.body.addEventListener('load', function (e) {
+		document.addEventListener('load', function (e) {
 			if (e.target.tagName === 'IMG') {
 				fix(e.target, {
 					skipTest: opts.skipTest

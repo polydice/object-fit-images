@@ -201,7 +201,7 @@ export default function fix(imgs, opts) {
 	}
 
 	if (startAutoMode) {
-		document.body.addEventListener('load', e => {
+		document.addEventListener('load', e => {
 			if (e.target.tagName === 'IMG') {
 				fix(e.target, {
 					skipTest: opts.skipTest

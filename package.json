@@ -1,12 +1,15 @@
 {
   "name": "object-fit-images",
-  "version": "3.2.3",
+  "version": "3.2.4-mod.1",
   "description": "Polyfill object-fit and object-position on images on IE9, IE10, IE11, Edge, Safari, ...",
   "license": "MIT",
   "repository": "bfred-it/object-fit-images",
   "author": "Federico Brigante <bfred-it@users.noreply.github.com> (twitter.com/bfred_it)",
   "bugs": {
     "url": "https://github.com/bfred-it/object-fit-images/issues"
+  },
+  "publishConfig": {
+    "registry": "https://verdaccio.polydice.com"
   },
   "homepage": "https://github.com/bfred-it/object-fit-images#readme",
   "keywords": [
